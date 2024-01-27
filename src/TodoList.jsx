@@ -114,7 +114,7 @@ const TodoList = () => {
                                     type="text"
                                     value={todo.content}
                                     readOnly={!todo.done}
-                                    onChange={(e) => handleEditTodo(index, e.target.value)}
+                                    onChange={(e) => handleEditTodo(e.target.value)}
                                 />
                             </div>
                             <div className="actions">
